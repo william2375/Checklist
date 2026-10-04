@@ -1,0 +1,1001 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>京阪 8天7夜 ‧ 夫妻雙人行李準備清單</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Zen Maru Gothic (Title/Heading Accent), Noto Sans TC & Zen Kaku Gothic New (Body Reading) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Zen+Kaku+Gothic+New:wght@400;500;700&family=Zen+Maru+Gothic:wght@500;700;900&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        cream: {
+                            50: '#FCFBF7',
+                            100: '#FAF6F0',
+                            200: '#F4ECE1',
+                            300: '#EFE8DC',
+                            400: '#E3D7C5',
+                            500: '#C8A882',
+                            600: '#B89772',
+                            700: '#8C6F50',
+                            800: '#5C4835',
+                            900: '#3D2F22',
+                        },
+                        sage: {
+                            50: '#F4F7F4',
+                            100: '#EBF0EA',
+                            300: '#C2D1BC',
+                            500: '#A3B899',
+                            700: '#6B8261'
+                        },
+                        dusty: {
+                            100: '#F7EFEF',
+                            300: '#E8C5C5',
+                            500: '#D9A0A0'
+                        },
+                        matcha: {
+                            100: '#EAF0E6',
+                            600: '#718E62'
+                        }
+                    },
+                    fontFamily: {
+                        heading: ['"Zen Maru Gothic"', '"Noto Sans TC"', 'sans-serif'],
+                        sans: ['"Noto Sans TC"', '"Zen Kaku Gothic New"', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        html {
+            -webkit-tap-highlight-color: transparent;
+            font-size: 16px;
+        }
+        
+        body {
+            background-color: #FCFBF7;
+            color: #3D2F22;
+            background-image: radial-gradient(#EFE8DC 1.2px, transparent 1.2px);
+            background-size: 24px 24px;
+            font-family: 'Noto Sans TC', 'Zen Kaku Gothic New', sans-serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            text-rendering: optimizeLegibility;
+        }
+
+        h1, h2, h3, .font-heading {
+            font-family: 'Zen Maru Gothic', 'Noto Sans TC', sans-serif;
+        }
+
+        /* Custom Soft Cream Shadows */
+        .cream-shadow {
+            box-shadow: 0 10px 30px -5px rgba(184, 151, 114, 0.12), 0 4px 6px -2px rgba(184, 151, 114, 0.05);
+        }
+
+        .cream-shadow-sm {
+            box-shadow: 0 4px 12px rgba(184, 151, 114, 0.08);
+        }
+
+        /* Mobile Friendly Custom Checkbox Styling (Large tap target) */
+        .custom-checkbox {
+            appearance: none;
+            width: 1.5rem;
+            height: 1.5rem;
+            border: 2px solid #D9C8B4;
+            border-radius: 0.5rem;
+            outline: none;
+            transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+            cursor: pointer;
+            position: relative;
+            background-color: #FFFFFF;
+            flex-shrink: 0;
+        }
+
+        .custom-checkbox:checked {
+            background-color: #C8A882;
+            border-color: #C8A882;
+        }
+
+        .custom-checkbox:checked::after {
+            content: '✓';
+            position: absolute;
+            color: white;
+            font-size: 1rem;
+            font-weight: bold;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        /* Sticky blur backdrop header for mobile navigation */
+        .sticky-tab-bar {
+            position: sticky;
+            top: 0;
+            z-index: 40;
+            background-color: rgba(252, 251, 247, 0.92);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+        }
+
+        /* Scrollbar aesthetics */
+        ::-webkit-scrollbar {
+            width: 6px;
+            height: 6px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #FAF6F0;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #E3D7C5;
+            border-radius: 999px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #C8A882;
+        }
+
+        /* Hide active scrollbars in tabs */
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+
+        /* Print styles */
+        @media print {
+            .no-print {
+                display: none !important;
+            }
+            body {
+                background: white !important;
+                background-image: none !important;
+            }
+            .cream-shadow {
+                box-shadow: none !important;
+                border: 1px solid #DDD !important;
+            }
+        }
+    </style>
+</head>
+<body class="min-h-screen pb-16 pt-4 px-3 md:px-8">
+
+    <div class="max-w-5xl mx-auto">
+        <!-- Main Header Banner -->
+        <header class="bg-white/95 backdrop-blur-md rounded-3xl p-5 md:p-8 mb-5 cream-shadow border border-cream-300 relative overflow-hidden">
+            <div class="absolute -right-8 -top-8 w-36 h-36 bg-cream-200/60 rounded-full blur-2xl pointer-events-none"></div>
+            <div class="absolute -left-8 -bottom-8 w-36 h-36 bg-sage-100/70 rounded-full blur-2xl pointer-events-none"></div>
+
+            <div class="relative z-10 flex flex-col md:flex-row md:items-center justify-between gap-5">
+                <div>
+                    <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-cream-100 border border-cream-300 text-cream-700 text-xs font-semibold mb-2">
+                        <i class="fa-solid fa-torii-gate text-cream-600"></i>
+                        <span>JAPAN TRIP 2026 ‧ KYOTO & OSAKA</span>
+                    </div>
+                    <h1 class="text-2xl md:text-3xl font-extrabold text-cream-900 tracking-tight flex items-center gap-2 font-heading">
+                        🇯🇵 京阪 8天7夜 ‧ 夫妻雙人行李清單
+                    </h1>
+                    <p class="text-cream-800 text-xs md:text-sm mt-2 flex items-center gap-2 flex-wrap font-medium leading-relaxed">
+                        <span><i class="fa-regular fa-calendar-alt text-cream-600 mr-1"></i>2026/10/10 ～ 2026/10/17</span>
+                        <span class="text-cream-300 hidden sm:inline">•</span>
+                        <span><i class="fa-solid fa-map-pin text-cream-600 mr-1"></i>京都 ＋ 大阪 ＋ USJ</span>
+                        <span class="text-cream-300 hidden sm:inline">•</span>
+                        <span><i class="fa-solid fa-user-group text-cream-600 mr-1"></i>夫妻雙人</span>
+                    </p>
+                </div>
+
+                <!-- Stats Dashboard Box -->
+                <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 bg-cream-100/90 p-3.5 rounded-2xl border border-cream-200">
+                    <div class="flex items-center gap-2 px-2">
+                        <i class="fa-solid fa-suitcase-rolling text-cream-600 text-xl"></i>
+                        <input type="text" id="tripName" value="京阪 8天7夜 漫步之旅" class="bg-transparent font-bold text-cream-900 text-sm focus:outline-none w-40 border-b border-transparent focus:border-cream-500 font-heading" placeholder="輸入旅程名稱...">
+                    </div>
+                    <div class="h-6 w-[1px] bg-cream-300 hidden sm:block"></div>
+                    <div class="text-xs text-cream-800 flex items-center justify-between gap-4 font-medium">
+                        <span>總計 <strong id="totalCount" class="text-cream-900 text-sm font-bold">0</strong> 項</span>
+                        <span class="text-sage-700 font-bold bg-white px-3 py-1 rounded-xl border border-sage-300 shadow-sm" id="packedCountBadge">已打包 0</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Packing Progress Dashboard -->
+            <div class="mt-5 pt-4 border-t border-cream-200">
+                <div class="flex items-center justify-between text-xs font-bold text-cream-800 mb-2">
+                    <span class="flex items-center gap-1.5 font-heading">
+                        <i class="fa-solid fa-chart-pie text-cream-500"></i>
+                        打包整體進度
+                    </span>
+                    <span id="progressPercent" class="text-cream-700 font-black text-sm">0%</span>
+                </div>
+                <div class="w-full h-3.5 bg-cream-200 rounded-full overflow-hidden p-0.5 border border-cream-300">
+                    <div id="progressBar" class="h-full bg-gradient-to-r from-cream-500 via-sage-500 to-matcha-600 rounded-full transition-all duration-500 ease-out" style="width: 0%"></div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Quick Person/Context Tabs (Sticky on Mobile for high usability) -->
+        <div class="sticky-tab-bar py-2 mb-4 -mx-3 px-3 md:mx-0 md:px-0">
+            <div class="no-print overflow-x-auto no-scrollbar flex items-center gap-2">
+                <button onclick="setTabFilter('ALL')" class="tab-btn min-h-[40px] px-4 py-2 rounded-2xl text-xs md:text-sm font-bold transition-all bg-cream-500 text-white shadow-sm whitespace-nowrap active-tab font-heading" data-tab="ALL">
+                    ✨ 全部清單
+                </button>
+                <button onclick="setTabFilter('👨 我的行李')" class="tab-btn min-h-[40px] px-4 py-2 rounded-2xl text-xs md:text-sm font-semibold transition-all bg-white hover:bg-cream-100 text-cream-800 border border-cream-300 whitespace-nowrap font-heading" data-tab="👨 我的行李">
+                    👨 老公行李
+                </button>
+                <button onclick="setTabFilter('👩 老婆的行李')" class="tab-btn min-h-[40px] px-4 py-2 rounded-2xl text-xs md:text-sm font-semibold transition-all bg-white hover:bg-cream-100 text-cream-800 border border-cream-300 whitespace-nowrap font-heading" data-tab="👩 老婆的行李">
+                    👩 老婆行李
+                </button>
+                <button onclick="setTabFilter('👫 夫妻共用')" class="tab-btn min-h-[40px] px-4 py-2 rounded-2xl text-xs md:text-sm font-semibold transition-all bg-white hover:bg-cream-100 text-cream-800 border border-cream-300 whitespace-nowrap font-heading" data-tab="👫 夫妻共用">
+                    👫 夫妻共用 (盥洗/藥品/3C)
+                </button>
+                <button onclick="setTabFilter('🎢 USJ與行程')" class="tab-btn min-h-[40px] px-4 py-2 rounded-2xl text-xs md:text-sm font-semibold transition-all bg-white hover:bg-cream-100 text-cream-800 border border-cream-300 whitespace-nowrap font-heading" data-tab="🎢 USJ與行程">
+                    🎢 USJ與外出包
+                </button>
+                <button onclick="setTabFilter('✈️ 出發前檢查')" class="tab-btn min-h-[40px] px-4 py-2 rounded-2xl text-xs md:text-sm font-semibold transition-all bg-white hover:bg-cream-100 text-cream-800 border border-cream-300 whitespace-nowrap font-heading" data-tab="✈️ 出發前檢查">
+                    ✈️ 出發前最後確認
+                </button>
+            </div>
+        </div>
+
+        <!-- Controls Toolbar -->
+        <div class="no-print flex flex-col md:flex-row gap-3 mb-5 items-stretch md:items-center justify-between">
+            <!-- Search & Filters -->
+            <div class="flex flex-wrap items-center gap-2 flex-1">
+                <div class="relative flex-1 min-w-[160px]">
+                    <i class="fa-solid fa-magnifying-glass absolute left-3.5 top-1/2 -translate-y-1/2 text-cream-400 text-sm"></i>
+                    <input type="text" id="searchInput" placeholder="搜尋物品名稱或備註..." class="w-full pl-9 pr-4 py-2.5 bg-white rounded-xl border border-cream-300 text-xs md:text-sm text-cream-900 placeholder-cream-400 focus:outline-none focus:ring-2 focus:ring-cream-400 transition-all cream-shadow-sm font-medium">
+                </div>
+                
+                <select id="filterCategory" class="py-2.5 px-3 bg-white rounded-xl border border-cream-300 text-xs md:text-sm text-cream-800 font-medium focus:outline-none focus:ring-2 focus:ring-cream-400 cream-shadow-sm cursor-pointer">
+                    <option value="ALL">所有細項分類</option>
+                    <option value="🛂 證件／重要文件">🛂 證件／重要文件</option>
+                    <option value="💳 金錢／信用卡">💳 金錢／信用卡</option>
+                    <option value="📱 日本網路／eSIM">📱 日本網路／eSIM</option>
+                    <option value="👨 我的行李">👨 我的行李</option>
+                    <option value="👩 老婆的行李">👩 老婆的行李</option>
+                    <option value="🧴 夫妻共用｜盥洗用品">🧴 夫妻共用｜盥洗用品</option>
+                    <option value="💊 夫妻共用｜藥品／醫療用品">💊 夫妻共用｜藥品／醫療用品</option>
+                    <option value="🔌 夫妻共用｜3C／電子用品">🔌 夫妻共用｜3C／電子用品</option>
+                    <option value="🧺 洗衣用品">🧺 洗衣用品</option>
+                    <option value="☔ 天氣／戶外用品">☔ 天氣／戶外用品</option>
+                    <option value="🎒 每日外出包">🎒 每日外出包</option>
+                    <option value="🎢 USJ專用清單">🎢 USJ專用清單</option>
+                    <option value="🧰 旅行雜物">🧰 旅行雜物</option>
+                    <option value="🛍️ 購物／戰利品">🛍️ 購物／戰利品</option>
+                    <option value="🧳 行李箱分配">🧳 行李箱分配</option>
+                    <option value="✈️ 出發前最後確認">✈️ 出發前最後確認</option>
+                    <option value="🇯🇵 出發！">🇯🇵 出發！</option>
+                </select>
+
+                <select id="filterStatus" class="py-2.5 px-3 bg-white rounded-xl border border-cream-300 text-xs md:text-sm text-cream-800 font-medium focus:outline-none focus:ring-2 focus:ring-cream-400 cream-shadow-sm cursor-pointer">
+                    <option value="ALL">全部狀態</option>
+                    <option value="UNPACKED">⏳ 待準備</option>
+                    <option value="PACKED">✅ 已完成</option>
+                </select>
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="flex items-center gap-2 justify-end">
+                <button id="btnBulkImport" class="flex items-center justify-center gap-1.5 px-3 py-2.5 bg-white hover:bg-cream-100 text-cream-800 text-xs md:text-sm font-semibold rounded-xl border border-cream-300 transition-all cream-shadow-sm min-h-[42px]">
+                    <i class="fa-solid fa-file-import text-cream-500"></i>
+                    <span>批量貼上</span>
+                </button>
+                <button id="btnAddNew" class="flex items-center justify-center gap-1.5 px-3.5 py-2.5 bg-cream-500 hover:bg-cream-600 text-white text-xs md:text-sm font-semibold rounded-xl transition-all cream-shadow-sm shadow-cream-500/20 min-h-[42px]">
+                    <i class="fa-solid fa-plus"></i>
+                    <span>新增項目</span>
+                </button>
+                <button id="btnPrint" class="flex items-center justify-center w-10 h-10 bg-white hover:bg-cream-100 text-cream-700 rounded-xl border border-cream-300 transition-all cream-shadow-sm" title="列印清單">
+                    <i class="fa-solid fa-print"></i>
+                </button>
+                <button id="btnReset" class="flex items-center justify-center w-10 h-10 bg-white hover:bg-dusty-100 text-dusty-500 rounded-xl border border-cream-300 transition-all cream-shadow-sm" title="重置所有勾選標記">
+                    <i class="fa-solid fa-rotate-left"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Laundry Interactive Schedule Widget -->
+        <section id="laundryScheduleCard" class="mb-6 bg-white/90 rounded-3xl p-5 border border-cream-300 cream-shadow">
+            <div class="flex items-center justify-between mb-3 border-b border-cream-200 pb-2.5">
+                <div class="flex items-center gap-2.5">
+                    <span class="w-8 h-8 rounded-xl bg-sky-50 text-sky-600 border border-sky-200 flex items-center justify-center text-sm shadow-sm">
+                        <i class="fa-solid fa-shirt"></i>
+                    </span>
+                    <div>
+                        <h2 class="font-bold text-cream-900 text-base">🧺 8天洗衫安排與調度</h2>
+                        <p class="text-cream-600 text-xs">大約每1～2天洗一次，僅 Day 5 休息不洗</p>
+                    </div>
+                </div>
+                <span class="text-xs bg-sky-50 text-sky-700 border border-sky-200 px-2.5 py-1 rounded-full font-medium">每1~2天洗濯</span>
+            </div>
+
+            <div class="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-8 gap-2">
+                <div class="p-2.5 rounded-2xl bg-cream-50 border border-cream-200 text-center">
+                    <div class="text-[10px] font-bold text-cream-500">Day 1 (10/10)</div>
+                    <div class="text-xs font-semibold text-cream-800 mt-0.5">抵達日本</div>
+                    <div class="text-[10px] text-cream-400 mt-1">不洗</div>
+                </div>
+                <div class="p-2.5 rounded-2xl bg-sky-50/70 border border-sky-200 text-center">
+                    <div class="text-[10px] font-bold text-sky-600">Day 2 (10/11)</div>
+                    <div class="text-xs font-semibold text-sky-900 mt-0.5">🧺 洗衣</div>
+                    <div class="text-[10px] text-sky-600 mt-1">飯店洗滌</div>
+                </div>
+                <div class="p-2.5 rounded-2xl bg-sky-50/70 border border-sky-200 text-center">
+                    <div class="text-[10px] font-bold text-sky-600">Day 3 (10/12)</div>
+                    <div class="text-xs font-semibold text-sky-900 mt-0.5">🧺 洗衣</div>
+                    <div class="text-[10px] text-sky-600 mt-1">飯店洗滌</div>
+                </div>
+                <div class="p-2.5 rounded-2xl bg-sky-50/70 border border-sky-200 text-center">
+                    <div class="text-[10px] font-bold text-sky-600">Day 4 (10/13)</div>
+                    <div class="text-xs font-semibold text-sky-900 mt-0.5">🧺 洗衣</div>
+                    <div class="text-[10px] text-sky-600 mt-1">飯店洗滌</div>
+                </div>
+                <div class="p-2.5 rounded-2xl bg-rose-50 border border-rose-200 text-center">
+                    <div class="text-[10px] font-bold text-rose-500">Day 5 (10/14)</div>
+                    <div class="text-xs font-semibold text-rose-800 mt-0.5">☕ 不洗衣</div>
+                    <div class="text-[10px] text-rose-600 mt-1">唯一不洗</div>
+                </div>
+                <div class="p-2.5 rounded-2xl bg-sky-50/70 border border-sky-200 text-center">
+                    <div class="text-[10px] font-bold text-sky-600">Day 6 (10/15)</div>
+                    <div class="text-xs font-semibold text-sky-900 mt-0.5">🧺 洗衣</div>
+                    <div class="text-[10px] text-sky-600 mt-1">飯店洗滌</div>
+                </div>
+                <div class="p-2.5 rounded-2xl bg-amber-50 border border-amber-200 text-center">
+                    <div class="text-[10px] font-bold text-amber-600">Day 7 (10/16)</div>
+                    <div class="text-xs font-semibold text-amber-900 mt-0.5">🧺 視情況</div>
+                    <div class="text-[10px] text-amber-600 mt-1">整理行李</div>
+                </div>
+                <div class="p-2.5 rounded-2xl bg-sage-50 border border-sage-200 text-center">
+                    <div class="text-[10px] font-bold text-sage-600">Day 8 (10/17)</div>
+                    <div class="text-xs font-semibold text-sage-900 mt-0.5">🛫 回台灣</div>
+                    <div class="text-[10px] text-sage-600 mt-1">開心滿載</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Main Checklist Container -->
+        <main id="checklistContainer" class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <!-- Dynamic Category Cards will be rendered here -->
+        </main>
+
+        <!-- Empty state placeholder -->
+        <div id="emptyState" class="hidden text-center py-16 bg-white/70 rounded-3xl border border-dashed border-cream-300 mt-4">
+            <div class="w-16 h-16 bg-cream-100 text-cream-400 rounded-full flex items-center justify-center mx-auto mb-3 text-2xl">
+                <i class="fa-solid fa-box-open"></i>
+            </div>
+            <h3 class="text-base font-semibold text-cream-800">目前沒有找到符合條件的物品</h3>
+            <p class="text-xs text-cream-600 mt-1">請嘗試切換頂部標籤，或直接點擊「新增項目」！</p>
+        </div>
+
+        <!-- Footer Notice -->
+        <footer class="mt-12 text-center text-xs text-cream-600 no-print flex flex-col items-center gap-2">
+            <div class="flex items-center gap-2 bg-white px-4 py-2 rounded-full border border-cream-200 cream-shadow-sm">
+                <span class="w-2 h-2 rounded-full bg-sage-500 animate-pulse"></span>
+                <span>所有修改進度皆已自動備份儲存於您的瀏覽器中</span>
+            </div>
+            <p>© 京阪雙人漫步 ‧ 祝您與老婆旅途平安順心 ♡</p>
+        </footer>
+    </div>
+
+    <!-- Modal 1: Add/Edit Item Modal -->
+    <div id="modalItem" class="fixed inset-0 bg-cream-900/40 backdrop-blur-sm z-50 flex items-center justify-center p-4 hidden opacity-0 transition-opacity duration-200">
+        <div class="bg-white rounded-3xl p-6 max-w-md w-full border border-cream-300 cream-shadow transform scale-95 transition-transform duration-200" id="modalItemContent">
+            <div class="flex justify-between items-center mb-4 pb-3 border-b border-cream-200">
+                <h3 class="text-lg font-bold text-cream-900 flex items-center gap-2" id="modalTitle">
+                    <i class="fa-solid fa-pen-to-square text-cream-500"></i>
+                    <span>新增旅遊物品</span>
+                </h3>
+                <button id="btnCloseModal" class="w-8 h-8 rounded-full hover:bg-cream-100 text-cream-500 flex items-center justify-center transition-all">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+
+            <form id="itemForm" class="space-y-4">
+                <input type="hidden" id="itemId">
+                <div>
+                    <label class="block text-xs font-semibold text-cream-700 mb-1">物品名稱 *</label>
+                    <input type="text" id="inputName" required placeholder="例如: 護照, 日本eSIM, 折傘..." class="w-full px-3.5 py-2.5 bg-cream-50/50 rounded-xl border border-cream-300 text-sm text-cream-900 focus:outline-none focus:ring-2 focus:ring-cream-400">
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+                    <div>
+                        <label class="block text-xs font-semibold text-cream-700 mb-1">所屬分類</label>
+                        <select id="inputCategory" class="w-full px-3 py-2.5 bg-cream-50/50 rounded-xl border border-cream-300 text-xs text-cream-900 focus:outline-none focus:ring-2 focus:ring-cream-400">
+                            <option value="🛂 證件／重要文件">🛂 證件／重要文件</option>
+                            <option value="💳 金錢／信用卡">💳 金錢／信用卡</option>
+                            <option value="📱 日本網路／eSIM">📱 日本網路／eSIM</option>
+                            <option value="👨 我的行李">👨 我的行李</option>
+                            <option value="👩 老婆的行李">👩 老婆的行李</option>
+                            <option value="🧴 夫妻共用｜盥洗用品">🧴 夫妻共用｜盥洗用品</option>
+                            <option value="💊 夫妻共用｜藥品／醫療用品">💊 夫妻共用｜藥品／醫療用品</option>
+                            <option value="🔌 夫妻共用｜3C／電子用品">🔌 夫妻共用｜3C／電子用品</option>
+                            <option value="🧺 洗衣用品">🧺 洗衣用品</option>
+                            <option value="☔ 天氣／戶外用品">☔ 天氣／戶外用品</option>
+                            <option value="🎒 每日外出包">🎒 每日外出包</option>
+                            <option value="🎢 USJ專用清單">🎢 USJ專用清單</option>
+                            <option value="🧰 旅行雜物">🧰 旅行雜物</option>
+                            <option value="🛍️ 購物／戰利品">🛍️ 購物／戰利品</option>
+                            <option value="🧳 行李箱分配">🧳 行李箱分配</option>
+                            <option value="✈️ 出發前最後確認">✈️ 出發前最後確認</option>
+                            <option value="🇯🇵 出發！">🇯🇵 出發！</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-xs font-semibold text-cream-700 mb-1">數量 / 備註資訊</label>
+                        <input type="text" id="inputNote" placeholder="例如: 2本, 勿托運, 存手機..." class="w-full px-3.5 py-2.5 bg-cream-50/50 rounded-xl border border-cream-300 text-sm text-cream-900 focus:outline-none focus:ring-2 focus:ring-cream-400">
+                    </div>
+                </div>
+
+                <div class="pt-3 flex items-center justify-end gap-2">
+                    <button type="button" id="btnCancelModal" class="px-4 py-2 bg-cream-100 hover:bg-cream-200 text-cream-800 text-xs md:text-sm font-medium rounded-xl transition-all">取消</button>
+                    <button type="submit" class="px-5 py-2 bg-cream-500 hover:bg-cream-600 text-white text-xs md:text-sm font-medium rounded-xl transition-all cream-shadow-sm">儲存物品</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Modal 2: Bulk Import Modal -->
+    <div id="modalBulk" class="fixed inset-0 bg-cream-900/40 backdrop-blur-sm z-50 flex items-center justify-center p-4 hidden opacity-0 transition-opacity duration-200">
+        <div class="bg-white rounded-3xl p-6 max-w-lg w-full border border-cream-300 cream-shadow transform scale-95 transition-transform duration-200">
+            <div class="flex justify-between items-center mb-3 pb-3 border-b border-cream-200">
+                <h3 class="text-lg font-bold text-cream-900 flex items-center gap-2">
+                    <i class="fa-solid fa-paste text-cream-500"></i>
+                    <span>批量匯入清單</span>
+                </h3>
+                <button id="btnCloseBulk" class="w-8 h-8 rounded-full hover:bg-cream-100 text-cream-500 flex items-center justify-center transition-all">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+
+            <p class="text-xs text-cream-600 mb-3">直接將清單貼在下方（每行一項）。您可以選擇分類，匯入後可隨時個別調整！</p>
+
+            <div class="mb-3">
+                <label class="block text-xs font-semibold text-cream-700 mb-1">選擇匯入預設分類：</label>
+                <select id="bulkCategory" class="w-full px-3 py-2 bg-cream-50 rounded-xl border border-cream-300 text-xs text-cream-900">
+                    <option value="👨 我的行李">👨 我的行李</option>
+                    <option value="👩 老婆的行李">👩 老婆的行李</option>
+                    <option value="🧴 夫妻共用｜盥洗用品">🧴 夫妻共用｜盥洗用品</option>
+                    <option value="💊 夫妻共用｜藥品／醫療用品">💊 夫妻共用｜藥品／醫療用品</option>
+                    <option value="🔌 夫妻共用｜3C／電子用品">🔌 夫妻共用｜3C／電子用品</option>
+                    <option value="🧰 旅行雜物" selected>🧰 旅行雜物</option>
+                </select>
+            </div>
+
+            <textarea id="bulkText" rows="6" placeholder="例如：&#10;短袖T-shirt × 3&#10;薄長袖上衣 × 2&#10;保暖內層 × 1" class="w-full p-3 bg-cream-50/50 rounded-xl border border-cream-300 text-sm text-cream-900 focus:outline-none focus:ring-2 focus:ring-cream-400 font-sans"></textarea>
+
+            <div class="mt-4 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+                <label class="flex items-center gap-2 text-xs text-cream-700 cursor-pointer">
+                    <input type="checkbox" id="bulkReplace" class="rounded border-cream-300 text-cream-500 focus:ring-cream-400">
+                    <span>替換現有全部清單 (未勾選則為追加)</span>
+                </label>
+                <div class="flex gap-2 justify-end">
+                    <button type="button" id="btnCancelBulk" class="px-4 py-2 bg-cream-100 hover:bg-cream-200 text-cream-800 text-xs font-medium rounded-xl">取消</button>
+                    <button type="button" id="btnConfirmBulk" class="px-5 py-2 bg-cream-500 hover:bg-cream-600 text-white text-xs font-medium rounded-xl cream-shadow-sm">確認匯入</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Notification Toast -->
+    <div id="toast" class="fixed bottom-6 right-6 bg-cream-900 text-white text-xs px-4 py-3 rounded-2xl shadow-xl flex items-center gap-2 translate-y-16 opacity-0 transition-all duration-300 z-50">
+        <i class="fa-solid fa-circle-check text-sage-500"></i>
+        <span id="toastMsg">提示訊息</span>
+    </div>
+
+    <script>
+        // Preset dataset populated from Kyoto/Osaka double travel list
+        const DEFAULT_ITEMS = [
+            // 👨 我的行李
+            { id: 'm1', name: '短袖T-shirt', category: '👨 我的行李', packed: false, note: '× 3' },
+            { id: 'm2', name: '薄長袖上衣', category: '👨 我的行李', packed: false, note: '× 2' },
+            { id: 'm3', name: '保暖內層', category: '👨 我的行李', packed: false, note: '× 1' },
+            { id: 'm4', name: '薄外套', category: '👨 我的行李', packed: false, note: '× 1' },
+            { id: 'm5', name: '長褲', category: '👨 我的行李', packed: false, note: '× 2' },
+            { id: 'm6', name: '內褲', category: '👨 我的行李', packed: false, note: '× 6' },
+            { id: 'm7', name: '襪子', category: '👨 我的行李', packed: false, note: '× 6雙' },
+            { id: 'm8', name: '睡衣', category: '👨 我的行李', packed: false, note: '× 1套' },
+            { id: 'm9', name: '帽子', category: '👨 我的行李', packed: false, note: '× 1' },
+            { id: 'm10', name: '太陽眼鏡', category: '👨 我的行李', packed: false, note: '× 1' },
+            { id: 'm11', name: '主力步行鞋', category: '👨 我的行李', packed: false, note: '穿在身上／舒適耐走' },
+            { id: 'm12', name: '拖鞋', category: '👨 我的行李', packed: false, note: '× 1' },
+            { id: 'm13', name: '眼鏡／眼鏡盒／眼鏡布', category: '👨 我的行李', packed: false, note: '個人視覺用品' },
+            { id: 'm14', name: '個人保養用品', category: '👨 我的行李', packed: false, note: '刮鬍刀／鬍鬚水等' },
+            { id: 'm15', name: '個人專用藥品', category: '👨 我的行李', packed: false, note: '隨身藥物' },
+
+            // 👩 老婆的行李
+            { id: 'w1', name: '短袖上衣', category: '👩 老婆的行李', packed: false, note: '× 2' },
+            { id: 'w2', name: '薄長袖上衣', category: '👩 老婆的行李', packed: false, note: '× 3' },
+            { id: 'w3', name: '保暖內搭', category: '👩 老婆的行李', packed: false, note: '× 1' },
+            { id: 'w4', name: '薄外套', category: '👩 老婆的行李', packed: false, note: '× 1' },
+            { id: 'w5', name: '長褲', category: '👩 老婆的行李', packed: false, note: '× 2' },
+            { id: 'w6', name: '裙子／洋裝', category: '👩 老婆的行李', packed: false, note: '× 1' },
+            { id: 'w7', name: '打底褲', category: '👩 老婆的行李', packed: false, note: '× 1（需要再帶）' },
+            { id: 'w8', name: '內褲', category: '👩 老婆的行李', packed: false, note: '× 7' },
+            { id: 'w9', name: '襪子', category: '👩 老婆的行李', packed: false, note: '× 6雙' },
+            { id: 'w10', name: '內衣', category: '👩 老婆的行李', packed: false, note: '× 4～5' },
+            { id: 'w11', name: '睡衣', category: '👩 老婆的行李', packed: false, note: '× 1套' },
+            { id: 'w12', name: '帽子', category: '👩 老婆的行李', packed: false, note: '× 1' },
+            { id: 'w13', name: '太陽眼鏡', category: '👩 老婆的行李', packed: false, note: '× 1' },
+            { id: 'w14', name: '生理用品', category: '👩 老婆的行李', packed: false, note: '備用備查' },
+            { id: 'w15', name: '主力步行鞋', category: '👩 老婆的行李', packed: false, note: '× 1' },
+            { id: 'w16', name: '第二雙休閒鞋', category: '👩 老婆的行李', packed: false, note: '× 1 (可選)' },
+            { id: 'w17', name: '拖鞋', category: '👩 老婆的行李', packed: false, note: '× 1' },
+            { id: 'w18', name: '彩妝包（粉底/遮瑕/蜜粉/眉筆/眼影/眼線/睫毛膏/腮紅/唇彩）', category: '👩 老婆的行李', packed: false, note: '美妝全套' },
+            { id: 'w19', name: '卸妝用品／化妝棉', category: '👩 老婆的行李', packed: false, note: '卸妝油/保養' },
+            { id: 'w20', name: '保養組（化妝水/乳液/防曬/護唇膏）', category: '👩 老婆的行李', packed: false, note: '基礎保濕' },
+            { id: 'w21', name: '髮飾美髮（梳子/髮圈/髮夾/小鏡子）', category: '👩 老婆的行李', packed: false, note: '髮型雜物' },
+
+            // 🧴 夫妻共用｜盥洗用品
+            { id: 'b1', name: '牙刷 × 2 & 牙膏 & 牙線', category: '🧴 夫妻共用｜盥洗用品', packed: false, note: '口腔清潔' },
+            { id: 'b2', name: '漱口水', category: '🧴 夫妻共用｜盥洗用品', packed: false, note: '可選' },
+            { id: 'b3', name: '洗面乳 & 卸妝用品', category: '🧴 夫妻共用｜盥洗用品', packed: false, note: '臉部清潔' },
+            { id: 'b4', name: '洗髮精 & 潤髮乳 & 沐浴乳', category: '🧴 夫妻共用｜盥洗用品', packed: false, note: '飯店有提供可減少' },
+            { id: 'b5', name: '身體乳 & 護唇膏 & 防曬', category: '🧴 夫妻共用｜盥洗用品', packed: false, note: '皮膚防護' },
+            { id: 'b6', name: '衛生紙 & 濕紙巾 & 毛巾/小毛巾', category: '🧴 夫妻共用｜盥洗用品', packed: false, note: '隨身衛生' },
+
+            // 💊 夫妻共用｜藥品／醫療用品
+            { id: 'med1', name: '常備內服藥（止痛/感冒/腸胃/止瀉/暈車/過敏/喉糖）', category: '💊 夫妻共用｜藥品／醫療用品', packed: false, note: '含藥品原包裝說明' },
+            { id: 'med2', name: '外用醫護（OK繃/消毒棉片/外用藥膏）', category: '💊 夫妻共用｜藥品／醫療用品', packed: false, note: '防磨腳與護傷' },
+            { id: 'med3', name: '防疫隨身（口罩/酒精濕紙巾）', category: '💊 夫妻共用｜藥品／醫療用品', packed: false, note: '衛生防護' },
+            { id: 'med4', name: '個人固定用藥 & 備用藥', category: '💊 夫妻共用｜藥品／醫療用品', packed: false, note: '足量準備' },
+
+            // 🔌 夫妻共用｜3C／電子用品
+            { id: 'e1', name: 'iPhone × 2 & 手機充電線 × 2', category: '🔌 夫妻共用｜3C／電子用品', packed: false, note: '雙人手機' },
+            { id: 'e2', name: 'USB-C充電器 & 多孔充電器', category: '🔌 夫妻共用｜3C／電子用品', packed: false, note: '多孔快充' },
+            { id: 'e3', name: '行動電源 × 1～2 & 充電線', category: '🔌 夫妻共用｜3C／電子用品', packed: false, note: '⚠️ 隨身攜帶勿托運' },
+            { id: 'e4', name: 'Apple Watch × 2 & 專用充電器', category: '🔌 夫妻共用｜3C／電子用品', packed: false, note: '手錶充電' },
+            { id: 'e5', name: 'AirPods & 耳機充電線', category: '🔌 夫妻共用｜3C／電子用品', packed: false, note: '降噪耳機' },
+            { id: 'e6', name: '備用充電線 & 日本轉接頭', category: '🔌 夫妻共用｜3C／電子用品', packed: false, note: '備用轉接' },
+            { id: 'e7', name: '相機 & 電池 & 充電器 & 記憶卡', category: '🔌 夫妻共用｜3C／電子用品', packed: false, note: '如攜帶攝影設備' },
+
+            // 📱 日本網路／eSIM
+            { id: 'sim1', name: '日本eSIM 啟用資訊 & QR Code保存', category: '📱 日本網路／eSIM', packed: false, note: '預先截圖或列印' },
+            { id: 'sim2', name: '確認手機支援eSIM & 未鎖卡', category: '📱 日本網路／eSIM', packed: false, note: '行前檢查' },
+            { id: 'sim3', name: '台灣SIM卡設定 & 國際漫遊確認', category: '📱 日本網路／eSIM', packed: false, note: '開啟數據漫遊為eSIM' },
+
+            // 💳 金錢／信用卡
+            { id: 'pay1', name: '海外神卡（玉山Unicard / 熊本熊雙幣卡）', category: '💳 金錢／信用卡', packed: false, note: '日本刷卡主打' },
+            { id: 'pay2', name: '備用信用卡（台新Richart / 國泰CUBE / 備用卡）', category: '💳 金錢／信用卡', packed: false, note: '分開放置兩個錢包' },
+            { id: 'pay3', name: '日幣現金 & 少量台幣', category: '💳 金錢／信用卡', packed: false, note: '日幣現鈔' },
+            { id: 'pay4', name: 'Apple Pay & 銀行App登入確認', category: '💳 金錢／信用卡', packed: false, note: '行動支付' },
+            { id: 'pay5', name: '開通海外刷卡交易 & 保存掛失電話', category: '💳 金錢／信用卡', packed: false, note: '安全措施' },
+
+            // 🛂 證件／重要文件
+            { id: 'doc1', name: '我的護照 & 老婆的護照', category: '🛂 證件／重要文件', packed: false, note: '確認6個月以上效期' },
+            { id: 'doc2', name: '身分證 & 駕照（需要才帶）', category: '🛂 證件／重要文件', packed: false, note: '國內證件' },
+            { id: 'doc3', name: '機票登機憑證 & 飯店訂房確認單', category: '🛂 證件／重要文件', packed: false, note: '存手機/雲端' },
+            { id: 'doc4', name: 'USJ門票QR Code & 快速通關憑證', category: '🛂 證件／重要文件', packed: false, note: '大阪環球影城' },
+            { id: 'doc5', name: '交通票券 & 餐廳預約憑證', category: '🛂 證件／重要文件', packed: false, note: '行程預約' },
+            { id: 'doc6', name: '旅平險保單 & 緊急聯絡資訊', category: '🛂 證件／重要文件', packed: false, note: '雲端/手機備份' },
+
+            // 🧺 洗衣用品
+            { id: 'l1', name: '洗衣袋 × 2 & 洗衣網 × 1～2', category: '🧺 洗衣用品', packed: false, note: '衣物分類' },
+            { id: 'l2', name: '旅行洗衣精 / 洗衣片 / 洗衣球', category: '🧺 洗衣用品', packed: false, note: '便攜包裝' },
+            { id: 'l3', name: '摺疊衣架 × 2～4 & 衣物夾', category: '🧺 洗衣用品', packed: false, note: '晾衣必備' },
+            { id: 'l4', name: '髒衣袋 × 2 & 防水袋 & 夾鏈袋/塑膠袋', category: '🧺 洗衣用品', packed: false, note: '換洗隔離' },
+
+            // ☔ 天氣／戶外用品
+            { id: 'out1', name: '折傘 × 2 & 輕薄防水外套', category: '☔ 天氣／戶外用品', packed: false, note: '防雨防風' },
+            { id: 'out2', name: '防水鞋套（可選）& 小毛巾', category: '☔ 天氣／戶外用品', packed: false, note: '雨天備用' },
+            { id: 'out3', name: '太陽眼鏡 & 防曬乳 & 護唇膏', category: '☔ 天氣／戶外用品', packed: false, note: '出發前1-2天確認天氣' },
+
+            // 🎒 每日外出包
+            { id: 'bag1', name: '【老公外出包】手機/錢包/IC卡/行動電源/折傘/水/衛生紙', category: '🎒 每日外出包', packed: false, note: '老公隨身' },
+            { id: 'bag2', name: '【老婆外出包】手機/錢包/IC卡/行動電源/補妝包/生理/水/折傘', category: '🎒 每日外出包', packed: false, note: '老婆隨身' },
+
+            // 🎢 USJ專用清單
+            { id: 'usj1', name: 'USJ門票QR Code & 快速通關憑證', category: '🎢 USJ專用清單', packed: false, note: '手機保存/截圖' },
+            { id: 'usj2', name: 'USJ裝備：行動電源/少量現金/IC卡/小毛巾/雨衣雨傘/水', category: '🎢 USJ專用清單', packed: false, note: '盡量減輕重量！' },
+
+            // 🧰 旅行雜物
+            { id: 'misc1', name: '指甲剪 & 耳塞 & 眼罩', category: '🧰 旅行雜物', packed: false, note: '機上/飯店休息' },
+            { id: 'misc2', name: '行李吊牌 & 行李束帶 & 行李秤', category: '🧰 旅行雜物', packed: false, note: '行李防護與測重' },
+            { id: 'misc3', name: '旅行收納袋 & 壓縮袋 & 分裝夾鏈袋/垃圾袋', category: '🧰 旅行雜物', packed: false, note: '打包收納' },
+
+            // 🛍️ 購物／戰利品
+            { id: 'shop1', name: '可折疊旅行袋 × 1 & 環保袋 × 2 & 大型購物袋 × 1', category: '🛍️ 購物／戰利品', packed: false, note: '戰利品擴充' },
+            { id: 'shop2', name: '預留行李箱 25～30% 空間', category: '🛍️ 購物／戰利品', packed: false, note: 'Nintendo KYOTO/USJ/心齋橋' },
+
+            // 🧳 行李箱分配
+            { id: 'lug1', name: '【大行李箱】衣物/鞋子/盥洗/洗衣/雜物', category: '🧳 行李箱分配', packed: false, note: '托運行李' },
+            { id: 'lug2', name: '【小行李箱／登機箱】3C/部分衣物/貴重物品', category: '🧳 行李箱分配', packed: false, note: '隨身/登機' },
+            { id: 'lug3', name: '【雙人隨身包】護照/錢包/手機/行動電源/藥品/文件', category: '🧳 行李箱分配', packed: false, note: '全程不離手' },
+
+            // ✈️ 出發前最後確認
+            { id: 'chk1', name: '證件機票飯店預約（護照/機票/飯店/USJ/餐廳/保單）已確認', category: '✈️ 出發前最後確認', packed: false, note: '重要憑證' },
+            { id: 'chk2', name: '裝置充電（手機/行動電源/Apple Watch/AirPods全滿）', category: '✈️ 出發前最後確認', packed: false, note: '電量滿格' },
+            { id: 'chk3', name: '居家安全（門窗鎖好/電器關閉/垃圾清理/冰箱食物處理）', category: '✈️ 出發前最後確認', packed: false, note: '安心出國' },
+
+            // 🇯🇵 出發！
+            { id: 'go1', name: '護照/錢包/手機/行動電源/隨身包皆已上身 ‧ 開心出發！', category: '🇯🇵 出發！', packed: false, note: '祝京阪之旅完美平安 ♡' }
+        ];
+
+        // Meta styling for categories
+        const CATEGORY_META = {
+            '👨 我的行李': { icon: 'fa-user-tie', color: 'bg-amber-50 text-amber-800 border-amber-200' },
+            '👩 老婆的行李': { icon: 'fa-user-ninja', color: 'bg-rose-50 text-rose-800 border-rose-200' },
+            '🧴 夫妻共用｜盥洗用品': { icon: 'fa-pump-soap', color: 'bg-emerald-50 text-emerald-800 border-emerald-200' },
+            '💊 夫妻共用｜藥品／醫療用品': { icon: 'fa-pills', color: 'bg-purple-50 text-purple-800 border-purple-200' },
+            '🔌 夫妻共用｜3C／電子用品': { icon: 'fa-plug', color: 'bg-sky-50 text-sky-800 border-sky-200' },
+            '📱 日本網路／eSIM': { icon: 'fa-wifi', color: 'bg-indigo-50 text-indigo-800 border-indigo-200' },
+            '💳 金錢／信用卡': { icon: 'fa-credit-card', color: 'bg-yellow-50 text-yellow-800 border-yellow-200' },
+            '🛂 證件／重要文件': { icon: 'fa-id-card', color: 'bg-orange-50 text-orange-800 border-orange-200' },
+            '🧺 洗衣用品': { icon: 'fa-soap', color: 'bg-cyan-50 text-cyan-800 border-cyan-200' },
+            '☔ 天氣／戶外用品': { icon: 'fa-umbrella', color: 'bg-teal-50 text-teal-800 border-teal-200' },
+            '🎒 每日外出包': { icon: 'fa-bag-shopping', color: 'bg-lime-50 text-lime-800 border-lime-200' },
+            '🎢 USJ專用清單': { icon: 'fa-ferris-wheel', color: 'bg-pink-50 text-pink-800 border-pink-200' },
+            '🧰 旅行雜物': { icon: 'fa-box-archive', color: 'bg-stone-50 text-stone-800 border-stone-200' },
+            '🛍️ 購物／戰利品': { icon: 'fa-gift', color: 'bg-fuchsia-50 text-fuchsia-800 border-fuchsia-200' },
+            '🧳 行李箱分配': { icon: 'fa-suitcase-rolling', color: 'bg-amber-50 text-amber-900 border-amber-300' },
+            '✈️️ 出發前最後確認': { icon: 'fa-clipboard-check', color: 'bg-red-50 text-red-800 border-red-200' },
+            '🇯🇵 出發！': { icon: 'fa-plane-departure', color: 'bg-matcha-100 text-matcha-600 border-sage-300' }
+        };
+
+        // App state variables
+        let items = [];
+        let currentTab = 'ALL';
+
+        // Load data from LocalStorage
+        function loadData() {
+            const savedItems = localStorage.getItem('kyoto_travel_checklist_items');
+            if (savedItems) {
+                try {
+                    items = JSON.parse(savedItems);
+                } catch(e) {
+                    items = [...DEFAULT_ITEMS];
+                }
+            } else {
+                items = [...DEFAULT_ITEMS];
+            }
+
+            const savedTrip = localStorage.getItem('kyoto_travel_trip_name');
+            if (savedTrip) {
+                document.getElementById('tripName').value = savedTrip;
+            }
+        }
+
+        // Save data to LocalStorage
+        function saveData() {
+            localStorage.setItem('kyoto_travel_checklist_items', JSON.stringify(items));
+            localStorage.setItem('kyoto_travel_trip_name', document.getElementById('tripName').value);
+            updateProgress();
+        }
+
+        // Display toast message
+        function showToast(msg) {
+            const toast = document.getElementById('toast');
+            document.getElementById('toastMsg').innerText = msg;
+            toast.classList.remove('translate-y-16', 'opacity-0');
+            setTimeout(() => {
+                toast.classList.add('translate-y-16', 'opacity-0');
+            }, 2500);
+        }
+
+        // Update overall progress bar
+        function updateProgress() {
+            const total = items.length;
+            const packed = items.filter(i => i.packed).length;
+            const percent = total === 0 ? 0 : Math.round((packed / total) * 100);
+
+            document.getElementById('totalCount').innerText = total;
+            document.getElementById('packedCountBadge').innerText = `已打包 ${packed}`;
+            document.getElementById('progressPercent').innerText = `${percent}%`;
+            document.getElementById('progressBar').style.width = `${percent}%`;
+        }
+
+        // Set Quick Tab Filter
+        window.setTabFilter = function(tabName) {
+            currentTab = tabName;
+            document.querySelectorAll('.tab-btn').forEach(btn => {
+                if (btn.getAttribute('data-tab') === tabName) {
+                    btn.classList.remove('bg-white', 'text-cream-800', 'border-cream-300');
+                    btn.classList.add('bg-cream-500', 'text-white', 'shadow-sm', 'active-tab');
+                } else {
+                    btn.classList.add('bg-white', 'text-cream-800', 'border-cream-300');
+                    btn.classList.remove('bg-cream-500', 'text-white', 'shadow-sm', 'active-tab');
+                }
+            });
+
+            // Toggle Laundry card visibility based on tab
+            const laundryCard = document.getElementById('laundryScheduleCard');
+            if (tabName === 'ALL' || tabName === '🧺 洗衣用品') {
+                laundryCard.classList.remove('hidden');
+            } else {
+                laundryCard.classList.add('hidden');
+            }
+
+            render();
+        };
+
+        <!-- Render checklist UI -->
+        function render() {
+            const container = document.getElementById('checklistContainer');
+            const emptyState = document.getElementById('emptyState');
+            const searchKeyword = document.getElementById('searchInput').value.trim().toLowerCase();
+            const categoryFilter = document.getElementById('filterCategory').value;
+            const statusFilter = document.getElementById('filterStatus').value;
+
+            // Filter items
+            const filteredItems = items.filter(item => {
+                // Tab Filter
+                let matchesTab = true;
+                if (currentTab === '👨 我的行李') matchesTab = item.category === '👨 我的行李';
+                else if (currentTab === '👩 老婆的行李') matchesTab = item.category === '👩 老婆的行李';
+                else if (currentTab === '👫 夫妻共用') matchesTab = ['🧴 夫妻共用｜盥洗用品', '💊 夫妻共用｜藥品／醫療用品', '🔌 夫妻共用｜3C／電子用品', '🧺 洗衣用品'].includes(item.category);
+                else if (currentTab === '🎢 USJ與行程') matchesTab = ['🎒 每日外出包', '🎢 USJ專用清單', '☔ 天氣／戶外用品', '🛍️ 購物／戰利品'].includes(item.category);
+                else if (currentTab === '✈️ 出發前檢查') matchesTab = ['🛂 證件／重要文件', '💳 金錢／信用卡', '📱 日本網路／eSIM', '✈️ 出發前最後確認', '🇯🇵 出發！'].includes(item.category);
+
+                // Search & Dropdown Filters
+                const matchesSearch = item.name.toLowerCase().includes(searchKeyword) || (item.note && item.note.toLowerCase().includes(searchKeyword));
+                const matchesCategory = categoryFilter === 'ALL' || item.category === categoryFilter;
+                const matchesStatus = statusFilter === 'ALL' || 
+                                      (statusFilter === 'PACKED' && item.packed) || 
+                                      (statusFilter === 'UNPACKED' && !item.packed);
+
+                return matchesTab && matchesSearch && matchesCategory && matchesStatus;
+            });
+
+            if (filteredItems.length === 0) {
+                container.innerHTML = '';
+                emptyState.classList.remove('hidden');
+                updateProgress();
+                return;
+            }
+
+            emptyState.classList.add('hidden');
+
+            // Group items by category
+            const grouped = {};
+            filteredItems.forEach(item => {
+                if (!grouped[item.category]) {
+                    grouped[item.category] = [];
+                }
+                grouped[item.category].push(item);
+            });
+
+            // Build HTML cards with optimal mobile legibility and touch targets
+            let html = '';
+            for (const [catName, catItems] of Object.entries(grouped)) {
+                const meta = CATEGORY_META[catName] || { icon: 'fa-layer-group', color: 'bg-cream-100 text-cream-800 border-cream-300' };
+                const catPackedCount = catItems.filter(i => i.packed).length;
+
+                html += `
+                <div class="bg-white/95 rounded-3xl p-4 md:p-5 border border-cream-200 cream-shadow transition-all hover:border-cream-300 flex flex-col justify-between">
+                    <div>
+                        <!-- Category Card Header -->
+                        <div class="flex items-center justify-between mb-3.5 pb-2.5 border-b border-cream-100">
+                            <div class="flex items-center gap-2.5">
+                                <span class="w-8 h-8 rounded-xl ${meta.color} border flex items-center justify-center text-sm shadow-sm">
+                                    <i class="fa-solid ${meta.icon}"></i>
+                                </span>
+                                <h2 class="font-bold text-cream-900 text-base md:text-lg font-heading tracking-tight">${catName}</h2>
+                            </div>
+                            <span class="text-xs font-bold text-cream-700 bg-cream-50 px-2.5 py-1 rounded-full border border-cream-200 font-heading">
+                                ${catPackedCount}/${catItems.length}
+                            </span>
+                        </div>
+
+                        <!-- Item List with Finger-Friendly Tap Targets & Reading Comfort -->
+                        <ul class="space-y-1">
+                            ${catItems.map(item => `
+                                <li class="group flex items-center justify-between py-2 px-2.5 rounded-2xl hover:bg-cream-50/80 transition-all min-h-[46px] ${item.packed ? 'bg-cream-50/40' : ''}">
+                                    <label class="flex items-center gap-3 cursor-pointer flex-1 min-w-0 pr-2 py-0.5">
+                                        <input type="checkbox" class="custom-checkbox flex-shrink-0" ${item.packed ? 'checked' : ''} onchange="toggleItem('${item.id}')">
+                                        <div class="flex flex-col min-w-0 leading-snug">
+                                            <span class="text-sm md:text-[15px] font-semibold tracking-normal ${item.packed ? 'line-through text-cream-400 font-normal' : 'text-cream-900'} transition-all break-words">
+                                                ${escapeHtml(item.name)}
+                                            </span>
+                                            ${item.note ? `<span class="text-xs text-cream-600 font-normal mt-0.5 truncate">${escapeHtml(item.note)}</span>` : ''}
+                                        </div>
+                                    </label>
+                                    
+                                    <div class="opacity-80 md:opacity-0 group-hover:opacity-100 transition-opacity flex items-center gap-1 no-print flex-shrink-0">
+                                        <button onclick="editItem('${item.id}')" class="w-8 h-8 rounded-lg text-cream-500 hover:text-cream-800 hover:bg-cream-200/60 flex items-center justify-center text-xs transition-all" title="編輯">
+                                            <i class="fa-solid fa-pen"></i>
+                                        </button>
+                                        <button onclick="deleteItem('${item.id}')" class="w-8 h-8 rounded-lg text-cream-400 hover:text-rose-500 hover:bg-rose-50 flex items-center justify-center text-xs transition-all" title="刪除">
+                                            <i class="fa-solid fa-trash"></i>
+                                        </button>
+                                    </div>
+                                </li>
+                            `).join('')}
+                        </ul>
+                    </div>
+                </div>
+                `;
+            }
+
+            container.innerHTML = html;
+            updateProgress();
+        }
+
+        // Helper to escape HTML characters
+        function escapeHtml(str) {
+            return str.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&#039;");
+        }
+
+        // Toggle packed state
+        window.toggleItem = function(id) {
+            const item = items.find(i => i.id === id);
+            if (item) {
+                item.packed = !item.packed;
+                saveData();
+                render();
+            }
+        };
+
+        // Delete item
+        window.deleteItem = function(id) {
+            items = items.filter(i => i.id !== id);
+            saveData();
+            render();
+            showToast('已刪除該項目');
+        };
+
+        // Edit item
+        window.editItem = function(id) {
+            const item = items.find(i => i.id === id);
+            if (!item) return;
+
+            document.getElementById('itemId').value = item.id;
+            document.getElementById('inputName').value = item.name;
+            document.getElementById('inputCategory').value = item.category;
+            document.getElementById('inputNote').value = item.note || '';
+
+            document.getElementById('modalTitle').innerHTML = `<i class="fa-solid fa-pen-to-square text-cream-500"></i><span>編輯物品項目</span>`;
+            openModal('modalItem');
+        };
+
+        // Modal triggers
+        function openModal(modalId) {
+            const modal = document.getElementById(modalId);
+            modal.classList.remove('hidden');
+            setTimeout(() => {
+                modal.classList.remove('opacity-0');
+                modal.firstElementChild.classList.remove('scale-95');
+            }, 10);
+        }
+
+        function closeModal(modalId) {
+            const modal = document.getElementById(modalId);
+            modal.firstElementChild.classList.add('scale-95');
+            modal.classList.add('opacity-0');
+            setTimeout(() => {
+                modal.classList.add('hidden');
+            }, 200);
+        }
+
+        // DOM Event Listeners
+        document.addEventListener('DOMContentLoaded', () => {
+            loadData();
+            render();
+
+            // Trip Name Sync
+            document.getElementById('tripName').addEventListener('input', saveData);
+
+            // Filter & Search Listener
+            document.getElementById('searchInput').addEventListener('input', render);
+            document.getElementById('filterCategory').addEventListener('change', render);
+            document.getElementById('filterStatus').addEventListener('change', render);
+
+            // Add New Item Modal
+            document.getElementById('btnAddNew').addEventListener('click', () => {
+                document.getElementById('itemForm').reset();
+                document.getElementById('itemId').value = '';
+                document.getElementById('modalTitle').innerHTML = `<i class="fa-solid fa-plus text-cream-500"></i><span>新增準備物品</span>`;
+                openModal('modalItem');
+            });
+
+            document.getElementById('btnCloseModal').addEventListener('click', () => closeModal('modalItem'));
+            document.getElementById('btnCancelModal').addEventListener('click', () => closeModal('modalItem'));
+
+            // Submit Add/Edit Form
+            document.getElementById('itemForm').addEventListener('submit', (e) => {
+                e.preventDefault();
+                const id = document.getElementById('itemId').value;
+                const name = document.getElementById('inputName').value.trim();
+                const category = document.getElementById('inputCategory').value;
+                const note = document.getElementById('inputNote').value.trim();
+
+                if (!name) return;
+
+                if (id) {
+                    const item = items.find(i => i.id === id);
+                    if (item) {
+                        item.name = name;
+                        item.category = category;
+                        item.note = note;
+                    }
+                    showToast('已成功修改物品');
+                } else {
+                    items.push({
+                        id: 'custom_' + Date.now().toString(),
+                        name: name,
+                        category: category,
+                        packed: false,
+                        note: note
+                    });
+                    showToast('已新增物品至清單');
+                }
+
+                saveData();
+                render();
+                closeModal('modalItem');
+            });
+
+            // Bulk Import Modal Handlers
+            document.getElementById('btnBulkImport').addEventListener('click', () => {
+                document.getElementById('bulkText').value = '';
+                openModal('modalBulk');
+            });
+
+            document.getElementById('btnCloseBulk').addEventListener('click', () => closeModal('modalBulk'));
+            document.getElementById('btnCancelBulk').addEventListener('click', () => closeModal('modalBulk'));
+
+            document.getElementById('btnConfirmBulk').addEventListener('click', () => {
+                const text = document.getElementById('bulkText').value;
+                const category = document.getElementById('bulkCategory').value;
+                const replace = document.getElementById('bulkReplace').checked;
+
+                const lines = text.split('\n').map(l => l.trim()).filter(l => l.length > 0);
+                if (lines.length === 0) {
+                    closeModal('modalBulk');
+                    return;
+                }
+
+                const newItems = lines.map((line, index) => {
+                    let name = line;
+                    let note = '';
+                    const match = line.match(/^(.+?)[（(](.+?)[）)]$/);
+                    if (match) {
+                        name = match[1].trim();
+                        note = match[2].trim();
+                    }
+
+                    return {
+                        id: 'bulk_' + Date.now() + '_' + index,
+                        name: name,
+                        category: category,
+                        packed: false,
+                        note: note
+                    };
+                });
+
+                if (replace) {
+                    items = newItems;
+                } else {
+                    items = [...items, ...newItems];
+                }
+
+                saveData();
+                render();
+                closeModal('modalBulk');
+                showToast(`成功匯入 ${newItems.length} 項物品！`);
+            });
+
+            // Print
+            document.getElementById('btnPrint').addEventListener('click', () => {
+                window.print();
+            });
+
+            // Reset All Checks
+            document.getElementById('btnReset').addEventListener('click', () => {
+                if (items.some(i => i.packed)) {
+                    items.forEach(i => i.packed = false);
+                    saveData();
+                    render();
+                    showToast('已清空所有打包勾選');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
